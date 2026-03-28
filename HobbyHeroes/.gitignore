@@ -111,3 +111,12 @@ Thumbs.db
 Thumbs.db:encryptable
 ehthumbs.db
 Desktop.ini
+
+# Ignorar configuraciones locales de editores
+.vscode/
+.vs/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
