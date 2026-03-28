@@ -1,0 +1,72 @@
+# --- Ignorar carpetas de Unity en CUALQUIER nivel (Soluciona el problema de subcarpetas) ---
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# --- Archivos temporales y de sistema ---
+*.utmp
+*.log
+*.tmp
+*.pidb
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+sysinfo.txt
+mono_crash.*
+
+# --- Archivos generados por Visual Studio / VS Code / Rider ---
+.vscode/
+.vs/
+.gradle/
+.consulo/
+ExportedObj/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.DotSettings.user
+*.booproj
+*.svd
+
+# --- Archivos de sistema (Equipos híbridos Mac/Windows) ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# --- Arte y Assets específicos ---
+*.blend1
+*.blend1.meta
+[Aa]ssets/AssetStoreTools*
+[Aa]ssets/Plugins/Editor/JetBrains*
+
+# --- Builds y Paquetes ---
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta
+*.app
+
+# --- Addressables y Visual Scripting ---
+ServerData/
+[Aa]ssets/StreamingAssets/aa/
+[Aa]ssets/AddressableAssetsData/link.xml
+[Aa]ssets/Addressables_Temp/
+[Aa]ssets/AddressableAssetsData/*/*.bin
+[Aa]ssets/Unity.VisualScripting.Generated/
+
+# --- Archivos generados por Test Runner ---
+[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
