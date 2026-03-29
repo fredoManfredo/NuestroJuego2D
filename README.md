@@ -44,7 +44,7 @@ Para mantener el orden, todo lo que Unity utiliza debe ir dentro de la carpeta `
 ---
 
 ## 🛠 Requisitos Técnicos
-* **Unity Version:** 2022.3 LTS (recomendada).
+* **Unity Version:** 6000.3.1.x
 * **Plataforma:** 2D (Física 2D, Rigidbody2D).
 * **IDE:** Visual Studio / VS Code.
 
